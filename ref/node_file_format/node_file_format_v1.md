@@ -2,7 +2,7 @@
 Notes:
 - all positions are single precision floating point
 - all widths and heights are single precision floating point
-TODO: replace fixed size counts with variable memory counts --> currently denoted as "N"
+- N denoted variable byte integers, where fully set bytes (i.e. 11111111) signal an additional byte to be read, byte ordering is little endian
  -->
 
 # Header
