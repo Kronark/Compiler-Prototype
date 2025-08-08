@@ -1,22 +1,15 @@
 <!--
 Notes:
-- all positions are single precision floating point
-- all widths and heights are single precision floating point
 - N denoted variable byte integers, where fully set bytes (i.e. 11111111) signal an additional byte to be read, byte ordering is little endian
  -->
 
 # Header
 
-- `kronarknode` magic number [11]
+- `kronode` magic number [7]
 - version number [1]
 
 # Roots
 
-- root positions:
-    - input root position x [4]
-    - input root position y [4]
-    - output root position x [4]
-    - output root position y [4]
 - output root connection count [N]
 - output root connections:
     - connection node [N]
@@ -40,12 +33,8 @@ Notes:
 
 - instance count [N]
 - instances:
-    - instance key [N]
+    - item id [N]
     - instance type [N]
-    - instance position:
-        - instance position x [4]
-        - instance position y [4]
-    - instance width [4]
     - instance name length [1]
     - instance name [string]
     - instance socket count [N]
@@ -76,29 +65,18 @@ Notes:
 
 - group count [N]
 - groups:
-    - group dimensions:
-        - group width [4]
-        - group height [4]
-    - group position:
-        - group position x [4]
-        - group position y [4]
+    - group id [N]
     - group colour [3]
     - group name length [N]
     - group name [string]
     - group item count [N]
     - group items:
-        - item key [N]
+        - item id [N]
 
 # Comments
 
-- comment count [N]
 - comments:
-    - comment dimensions:
-        - comment width [4]
-        - comment height [4]
-    - comment position:
-        - comment position x [4]
-        - comment position y [4]
+    - item id [N]
     - comment colour [3]
     - comment length [N]
     - comment [string]
