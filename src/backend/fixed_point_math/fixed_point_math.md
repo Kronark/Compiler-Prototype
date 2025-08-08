@@ -24,6 +24,9 @@ Contains functionality for:
     - Arcsine
     - Arccosine
     - Arctangent
+    - Vector Dot Product
+    - Vector Cross Product
+    - Matrix Multiplication
 
 ## Requires
 
