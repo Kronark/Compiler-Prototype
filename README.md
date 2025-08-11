@@ -1,4 +1,4 @@
-<div style="display:block;margin:0 auto;width:50%">
+<div style="display:block;margin:0 auto;width:50%;max-height:200px;">
     <img style="display:block;max-height:200px;" src="./docs/assets/logo.svg">
 </div>
 
