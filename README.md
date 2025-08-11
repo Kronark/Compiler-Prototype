@@ -1,5 +1,5 @@
-<div style="display:block;margin:0 auto;width:50%;max-height:200px;">
-    <img style="display:block;max-height:200px;" src="./docs/assets/logo.svg">
+<div style="display:block;margin:0 auto;width:50%;">
+    <img style="display:block;width: 200px;height:200px;" src="./docs/assets/logo.svg">
 </div>
 
 # Compiler-Prototype
