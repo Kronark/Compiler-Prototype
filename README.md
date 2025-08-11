@@ -1,6 +1,4 @@
-<div style="display:block;margin:0 auto;width:50%;">
-    <img style="display:block;width: 200px;height:200px;" src="./docs/assets/logo.svg">
-</div>
+<img style="display:block;width: 200px;height:200px;margin-left:50%;transform:translateX(-50%)" src="./docs/assets/logo.svg">
 
 # Compiler-Prototype
 A collaborative effort towards a fully featured prototype of the byte compiler design proposed by Kronark.
