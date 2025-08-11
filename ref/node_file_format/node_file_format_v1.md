@@ -29,9 +29,29 @@ Notes:
     - type name length [N]
     - type name [string]
 
+# Groups
+
+- group count [N]
+- groups:
+    - group id [N]
+    - group colour [3]
+    - group name length [N]
+    - group name [string]
+    - group item count [N]
+    - group items:
+        - item id [N]
+
+# Comments
+
+- comment count [N]
+- comments:
+    - item id [N]
+    - comment colour [3]
+    - comment length [N]
+    - comment [string]
+
 # Instances
 
-- instance count [N]
 - instances:
     - item id [N]
     - instance type [N]
@@ -60,23 +80,3 @@ Notes:
             - if not connected and not switch:
                 - value length [N]
                 - value [string]
-
-# Groups
-
-- group count [N]
-- groups:
-    - group id [N]
-    - group colour [3]
-    - group name length [N]
-    - group name [string]
-    - group item count [N]
-    - group items:
-        - item id [N]
-
-# Comments
-
-- comments:
-    - item id [N]
-    - comment colour [3]
-    - comment length [N]
-    - comment [string]

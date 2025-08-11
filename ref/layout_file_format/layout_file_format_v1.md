@@ -18,16 +18,6 @@ Notes:
     - output root position x [4]
     - output root position y [4]
 
-# Instances
-
-- instance count [N]
-- instances:
-    - item id [N]
-    - instance position:
-        - instance position x [4]
-        - instance position y [4]
-    - instance width [4]
-
 # Groups
 
 - group count [N]
@@ -42,6 +32,7 @@ Notes:
 
 # Comments
 
+- comment count [N]
 - comments:
     - item id [N]
     - comment position:
@@ -50,3 +41,12 @@ Notes:
     - comment dimensions:
         - comment width [4]
         - comment height [4]
+
+# Instances
+
+- instances:
+    - item id [N]
+    - instance position:
+        - instance position x [4]
+        - instance position y [4]
+    - instance width [4]
